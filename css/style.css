@@ -310,3 +310,52 @@ header i:hover{
 .underline{
     text-decoration: underline;
 }
+/* fine THIRD SECTION */
+
+
+
+/* FOURTH SECTION */
+.section-four h2{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.section-four a{
+    margin-bottom: 3000px;
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #0061FF;
+}
+.section-four a:hover{
+    color: red;
+}
+
+
+
+#cube-container{
+    height: 100vh;
+    background-color: #B4D0E7;
+}
+.cube-box{
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    border: 3px solid green;
+}
+.sx-box{
+    float: left;
+}
+.dx-box{
+    float: left;
+}
+.big-cube{
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: red;
+    float: left;
+}
+.cube{
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: 2px solid green;
+}

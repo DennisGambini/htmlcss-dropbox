@@ -13,17 +13,37 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
     min-width: 1200px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.9em;
 }
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-size: 2em;
+    font-weight: 800;
+}
+h3{
+    font-size: 1.8em;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1em;
+    font-weight: 800;
+}
     /* BTN */
 .btn:hover{
     background-color: #444;
-    color: burlywood;
+    /* color: burlywood; */
 }
 .btn{
     border: none;
@@ -36,9 +56,21 @@ body{
 .sm-btn{
     padding: 8px 20px;
 }
+
     /* fine BTN */
 
 /* fine GENERALI */
+
+
+
+
+
+
+
+
+
+
+
 
 /* HEADER */
 header{
@@ -74,6 +106,7 @@ nav{height: 70px;
     display: block;
 }
 .nav-link:hover{
+    
     border-bottom: 1px solid black;
 }
     /* fine NAV */
@@ -111,9 +144,122 @@ header i:hover{
 /* fine HEADER */
 
 
+
+
+
+
+
+
+
+
+
 /* MAIN */
 
-main{
-    height: 100vh;
-    background-color: orange;
+
+
+    /* PLAN SECTION */
+
+.plan{
+    padding-top: 20vh;
 }
+.tipo-fatturazione{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.fatturazione-check{
+    display: inline-block;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.fatturazione-check:hover{
+    border: 5px solid #0061FF;
+}
+.fatturazione-text{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+    /* PLAN CARD */
+.plan-box{
+    height: 800px;
+}
+.plan-choice{
+    border: 1px solid lightgray;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.plan-choice:nth-child(2){
+    margin: 0 5%;
+}
+.plan-top{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+}
+.plan-bottom{
+    padding: 20px;
+}
+.choice-title{
+    padding-bottom: 10px;
+}
+.choice-price{
+    padding-bottom: 8px;
+}
+.choice-descr{
+    padding-bottom: 25px;
+}
+.plan-choice button{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.choice-link{
+    margin-bottom: 20px;
+}
+.choice-link a{
+    color: #0061FF;
+}
+.choice-link a:hover{
+    color: red;
+}
+.plan-choice hr{
+    width: 20%;
+    margin-bottom: 30px;
+}
+.choice-footer h4{
+    margin-bottom: 20px;
+}
+.choice-footer li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.enterp-choice{
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+.enterp-text{
+    width: 75%;
+}
+.enterp-choice button{
+    float: right;
+    width: 25%;
+    padding: 10px 0;
+}
+
+    /* fine PLAN CARD */
+
+/* fine FIRST SECTION */
+
+
+
+
+
+
+/* SECOND SECTION */

@@ -43,7 +43,9 @@ h4{
     /* BTN */
 .btn:hover{
     background-color: #444;
-    /* color: burlywood; */
+}
+button{
+    font-weight: 600;
 }
 .btn{
     border: none;
@@ -375,4 +377,30 @@ header i:hover{
 }
 #cube-eight{
     background-color: #FFD830;
+}
+#ciao{
+    background-color: #B4D0E7;
+}
+.free-try{
+    height: 45vh;
+    position: relative;
+}
+.free-try h2{
+    width: 50%;
+    color: #61082B;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#ciao button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 30%;
+    padding: 10px 0;
+}
+#ciao button:hover{
+    color: white;
 }

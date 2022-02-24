@@ -350,12 +350,14 @@ header i:hover{
     float: left;
 }
 .cube{
+    position: relative;
     height: 50%;
     width: 50%;
     float: left;
 }
 #cube-one{
     background-color: #A2D39B;
+    border: 10px solid #D0E9CD;
 }
 #cube-two{
     background-color: #61082B;
@@ -378,6 +380,22 @@ header i:hover{
 #cube-eight{
     background-color: #FFD830;
 }
+.cube>svg{
+    width: 50%;
+    fill: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#cube-three svg, #cube-four svg, #cube-five svg{
+    filter: invert(100%);
+}
+#cube-three svg{
+    width: 90%;
+}
+
+
 #ciao{
     background-color: #B4D0E7;
 }

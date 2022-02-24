@@ -263,3 +263,27 @@ header i:hover{
 
 
 /* SECOND SECTION */
+.section-two{
+    margin-top: 20vh;
+}
+.section-two img{
+    width: 55%;
+    float: left;
+}
+.section-two-text{
+    width: 40%;
+    float: right;
+}
+.section-two-text h3, .section-two-text p{
+    padding-bottom: 30px;
+}
+.section-two-text button{
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.section-two-text button:hover{
+    background-color: #444;
+    color:white;
+}

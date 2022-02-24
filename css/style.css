@@ -7,6 +7,9 @@
 }
 
 /* GENERALI */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     min-width: 1200px;
@@ -17,6 +20,7 @@ body{
     display: table;
     clear: both;
 }
+    /* BTN */
 .btn:hover{
     background-color: #444;
     color: burlywood;
@@ -30,21 +34,24 @@ body{
     background-color: #0061FF;
 }
 .sm-btn{
-    padding: 5px 20px;
+    padding: 8px 20px;
 }
+    /* fine BTN */
+
 /* fine GENERALI */
 
 /* HEADER */
 header{
-    height: 100vh;
+    padding-top: 70px;
     background-color: #B4D0E7;
 }
     /* NAV */
-nav{
+nav{height: 70px;
     width: 100%;
     background-color: white;
     padding: 20px;
     position: fixed;
+    z-index: 1000;
 }
 .nav-ul{
     display: inline-block;
@@ -70,8 +77,42 @@ nav{
     border-bottom: 1px solid black;
 }
     /* fine NAV */
+.jumbotron{
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+}
+.jumbotron>h1{
+    font-size: 4em;
+}
+.jumbo-img{
+    float: right;
+    height: 60vh;
+    position: relative;
+    top: 50px;
+}
+.jumbo-text{
+    width: 35%;
+    float: left;
+    margin-top: 50px;
+}
+.jumbo-text p, .jumbo-text button{
+    margin-bottom: 20px;
+}
+.fa-arrow-down{
+    color: black;
+    font-size: 2.5em;
+}
+header i:hover{
+    cursor: pointer;
+    color: red;
+}
 
 /* fine HEADER */
+
+
+/* MAIN */
+
 main{
     height: 100vh;
     background-color: orange;

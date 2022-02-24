@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e6654805a9.js" crossorigin="anonymous"></script>
+    <!--  / FONT AWESOME -->
     <!-- FONT FAMILY -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,26 +16,39 @@
     <title>DropBox</title>
 </head>
 <body>
+    <nav class="clearfix">
+        <ul class="nav-ul nav-ul-sx">
+            <li>
+                <img src="img/logo-small.png" alt="logo Dropbox">
+            </li>
+            <li><a class="nav-link" href="#">Perch&egrave; Dropbox?</a></li>
+            <li><a class="nav-link" href="#">Funzioni</a></li>
+            <li><a class="nav-link" href="#">Piani e prezzi</a></li>
+        </ul>
+        <ul class="nav-ul nav-ul-dx">
+            <li><a class="nav-link" href="#">Supporto</a></li>
+            <li><a class="nav-link" href="#">Contatta l'ufficio vendite</a></li>
+            <li><a class="nav-link" href="#">Accedi</a></li>
+            <li>
+                <button class="btn sm-btn blue-btn" id="nav-btn">Inizia</button>
+            </li>
+        </ul>
+    </nav>
     <header>
-        <nav class="clearfix">
-            <ul class="nav-ul nav-ul-sx">
-                <li>
-                    <img src="img/logo-small.png" alt="logo Dropbox">
-                </li>
-                <li><a class="nav-link" href="#">Perch&egrave; Dropbox?</a></li>
-                <li><a class="nav-link" href="#">Funzioni</a></li>
-                <li><a class="nav-link" href="#">Piani e prezzi</a></li>
-            </ul>
-            <ul class="nav-ul nav-ul-dx">
-                <li><a class="nav-link" href="#">Supporto</a></li>
-                <li><a class="nav-link" href="#">Contatta l'ufficio vendite</a></li>
-                <li><a class="nav-link" href="#">Accedi</a></li>
-                <li>
-                    <button class="btn sm-btn blue-btn" id="nav-btn">Inizia</button>
-                </li>
-            </ul>
-        </nav>
+        <div class="jumbotron clearfix">
+            <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
+            <div class="jumbo-text">
+                <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>
+                Dropbox Business &egrave;n pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; una modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                <button class="btn sm-btn blue-btn">Inizia la tua prova gratuita</button>
+                <p>Annulla in qualsiasi momento</p>
+                <a href="#main">
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+            <img src="img/jumbo.png" alt="immagine proposte cliente" class="jumbo-img">
+        </div>
     </header>
-    <main></main>
+    <main id="main"></main>
 </body>
 </html>

@@ -330,16 +330,10 @@ header i:hover{
 }
 
 
-
-#cube-container{
-    height: 100vh;
-    background-color: #B4D0E7;
-}
+/* CUBI COLORATI */
 .cube-box{
     width: 30vw;
     height: 30vw;
-    background-color: black;
-    border: 3px solid green;
 }
 .sx-box{
     float: left;
@@ -350,12 +344,35 @@ header i:hover{
 .big-cube{
     width: calc(100% - 60vw);
     height: 30vw;
-    background-color: red;
+    background-color: #F5F5F5;
     float: left;
 }
 .cube{
     height: 50%;
     width: 50%;
     float: left;
-    border: 2px solid green;
+}
+#cube-one{
+    background-color: #A2D39B;
+}
+#cube-two{
+    background-color: #61082B;
+}
+#cube-three{
+    background-color: #0093CE;
+}
+#cube-four{
+    background-color: #FF1C1C;
+}
+#cube-five{
+    background-color: #D5001F;
+}
+#cube-six{
+    background-color: #B4D0E7;
+}
+#cube-seven{
+    background-color: #0D2481;
+}
+#cube-eight{
+    background-color: #FFD830;
 }

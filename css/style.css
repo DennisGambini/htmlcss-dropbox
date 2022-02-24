@@ -380,23 +380,17 @@ header i:hover{
 #cube-eight{
     background-color: #FFD830;
 }
-.cube>svg{
-    width: 50%;
-    fill: white;
+.cube>img{
+    width: 55%;
+    filter: invert(100%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#cube-three svg, #cube-four svg, #cube-five svg{
-    filter: invert(100%);
-}
-#cube-three svg{
-    width: 90%;
-}
 
 
-#ciao{
+#free-try-background{
     background-color: #B4D0E7;
 }
 .free-try{
@@ -411,7 +405,7 @@ header i:hover{
     left: 0;
     transform: translateY(-50%);
 }
-#ciao button{
+#free-try-background button{
     position: absolute;
     top: 50%;
     right: 0;
@@ -419,6 +413,6 @@ header i:hover{
     width: 30%;
     padding: 10px 0;
 }
-#ciao button:hover{
+#free-try-background button:hover{
     color: white;
 }

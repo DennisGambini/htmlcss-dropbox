@@ -40,6 +40,11 @@ h4{
     font-size: 1.1em;
     font-weight: 800;
 }
+h5{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #999;
+}
     /* BTN */
 .btn:hover{
     background-color: #444;
@@ -61,6 +66,11 @@ button{
 
     /* fine BTN */
 
+hr{
+    border: 0.1px solid lightgray;
+    background-color: lightgray;
+}
+
 /* fine GENERALI */
 
 
@@ -76,16 +86,19 @@ button{
 
 /* HEADER */
 header{
+    width: 100%;
     padding-top: 70px;
     background-color: #B4D0E7;
 }
     /* NAV */
-nav{height: 70px;
+nav{
+    height: 70px;
     width: 100%;
     background-color: white;
     padding: 20px;
     position: fixed;
     z-index: 1000;
+    min-width: 1200px;
 }
 .nav-ul{
     display: inline-block;
@@ -121,8 +134,8 @@ nav{height: 70px;
     font-size: 4em;
 }
 .jumbo-img{
-    float: right;
-    height: 60vh;
+    float: left;
+    width: 65%;
     position: relative;
     top: 50px;
 }
@@ -188,7 +201,7 @@ header i:hover{
 
     /* PLAN CARD */
 .plan-box{
-    height: 800px;
+    height: 1000px;
 }
 .plan-choice{
     border: 1px solid lightgray;
@@ -216,6 +229,13 @@ header i:hover{
 .choice-descr{
     padding-bottom: 25px;
 }
+.choice-descr p{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.choice-descr i{
+    margin-left: -20px;
+}
 .plan-choice button{
     width: 100%;
     padding: 10px 0;
@@ -237,11 +257,18 @@ header i:hover{
 .choice-footer h4{
     margin-bottom: 20px;
 }
+
 .choice-footer li{
+    padding-left:20px;
     margin-bottom: 20px;
     list-style-type: none;
 }
-
+.choice-footer li i{
+    margin-left: -20px;
+    color: #0061FF;
+    font-size: 1.2em;
+    
+}
 .enterp-choice{
     margin-top: 30px;
     border: 1px solid lightgray;
@@ -331,11 +358,12 @@ header i:hover{
     color: red;
 }
 
-
 /* CUBI COLORATI */
+
 .cube-box{
     width: 30vw;
     height: 30vw;
+    
 }
 .sx-box{
     float: left;
@@ -344,10 +372,22 @@ header i:hover{
     float: left;
 }
 .big-cube{
+    padding: 50px;
     width: calc(100% - 60vw);
     height: 30vw;
     background-color: #F5F5F5;
     float: left;
+    overflow-y: auto;
+    max-width: 40vw;
+}
+.big-cube img{
+    width: 115px;
+}
+.big-cube hr{
+    margin: 10% 90% 10% 0;
+}
+.big-cube p{
+    margin-bottom: 10%;
 }
 .cube{
     position: relative;
@@ -394,7 +434,8 @@ header i:hover{
     background-color: #B4D0E7;
 }
 .free-try{
-    height: 45vh;
+    padding-top: 160px;
+    padding-bottom: 160px;
     position: relative;
 }
 .free-try h2{

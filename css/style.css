@@ -457,3 +457,31 @@ header i:hover{
 #free-try-background button:hover{
     color: white;
 }
+
+
+/* SECTION FIVE */
+.section-five{
+    padding: 100px 0;
+}
+.section-five hr{
+    margin: 40px 0;
+}
+summary>h4{
+    display: inline-block;
+    list-style: none;
+}
+details>p{
+    padding-right: 80px;
+    margin-top: 20px;
+}
+summary{
+    list-style-type: none;
+}
+.fa-angle-down{
+    vertical-align: middle;
+    font-size: 1.5em;
+    float: right;
+}
+details[open] .fa-angle-down{
+    transform: rotate(180deg);
+}

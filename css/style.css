@@ -477,11 +477,73 @@ details>p{
 summary{
     list-style-type: none;
 }
-.fa-angle-down{
+.section-five .fa-angle-down{
     vertical-align: middle;
     font-size: 1.5em;
     float: right;
 }
 details[open] .fa-angle-down{
     transform: rotate(180deg);
+}
+
+
+/* fine MAIN */
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 100px 0 40px 0;
+
+}
+footer ul{
+    list-style-type: none;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 80%;
+}
+.footer-li{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-bottom: 60px;
+}
+.footer-li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-li>a{
+    font-size: 2em;
+}
+.footer-li>a:hover{
+    color: red;
+}
+.footer-nest-li{
+    margin-top: 10px;
+}
+.footer-nest-li:first-of-type{
+    margin-top: 30px;
+}
+.footer-nest-li>a:hover{
+    color: orange;
+}
+footer hr{
+    margin: 40px 0;
+    width: 10%;
+}
+.fa-angle-down{
+    vertical-align: middle;
+    font-size: 1.2em;
+    /* float: right; */
+}
+.language summary:hover, .language a:hover{
+    color: #0093CE;
+}
+.language a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
 }

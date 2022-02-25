@@ -121,8 +121,60 @@ nav{
     display: block;
 }
 .nav-link:hover{
-    
     border-bottom: 1px solid black;
+}
+
+
+
+/* DROPBOX */
+.drop-container{
+    position: relative;
+}
+.nav-link{
+    position: relative;
+    z-index: 1001;
+}
+.drop-ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    display: none;
+    position: absolute;
+    bottom:0;
+    transform: translateY(100%);
+    background-color:rgba(180, 208, 231, 0.6);
+    width: 100%;
+}
+.drop-li{
+    text-align: center;
+    margin-top: 10px;
+    display:block;
+    line-height: 2em;
+    padding: 5px;
+}
+.drop-li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+.drop-li a:hover{
+    
+    border-radius: 5px;
+    color: #0061FF;
+    background-color: white;
+}
+.nav-link:hover + .drop-ul, .drop-ul:hover{
+    display: block;
+}
+
+.rossone{
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.nav-link:hover + .rossone{
+    display: inline-block;
 }
     /* fine NAV */
 .jumbotron{
@@ -198,7 +250,6 @@ header i:hover{
     vertical-align: middle;
     margin-right: 20px;
 }
-
     /* PLAN CARD */
 .plan-box{
     height: 1000px;
@@ -547,3 +598,6 @@ footer hr{
     color: white;
     margin-top: 10px;
 }
+
+/* ABBELLIMENTI */
+

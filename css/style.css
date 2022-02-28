@@ -63,7 +63,6 @@ button{
 .sm-btn{
     padding: 8px 20px;
 }
-
     /* fine BTN */
 
 hr{
@@ -95,14 +94,11 @@ nav{
     height: 70px;
     width: 100%;
     background-color: white;
-    padding: 20px;
     position: fixed;
     z-index: 1000;
     min-width: 1200px;
 }
-.nav-ul{
-    display: inline-block;
-}
+
 .nav-ul-sx{
     float: left;
 }
@@ -110,18 +106,32 @@ nav{
     float: right;
 }
 .nav-ul>li{
-    display: inline-block;
+    height: 70px;
+    display: block;
+    float: left;
     text-decoration: none;
-    vertical-align: middle;
     margin: 0 10px;
+    line-height: 70px;
 }
 .nav-link{
     color: black;
     text-decoration: none;
     display: block;
 }
-.nav-link:hover{
-    border-bottom: 1px solid black;
+.nav-ul>li:hover{
+    border-bottom: 2px solid black;
+}
+.nav-ul-sx>li:first-of-type, .nav-ul-dx>li:last-of-type{
+    border-bottom: none;
+}
+nav .logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#logo-box{
+    width: 150px;
+    position: relative;
 }
 
 
@@ -137,44 +147,34 @@ nav{
 .drop-ul{
     padding-top: 20px;
     padding-bottom: 20px;
-    
     display: none;
     position: absolute;
     bottom:0;
     transform: translateY(100%);
-    background-color:rgba(180, 208, 231, 0.6);
-    width: 100%;
+    background-color: #eee;
+    width: 170px;
+    
 }
 .drop-li{
     text-align: center;
     margin-top: 10px;
     display:block;
-    line-height: 2em;
-    padding: 5px;
+    line-height: 1.5em;
 }
 .drop-li a{
+    font-size: 0.9em;
     text-decoration: none;
     color:black;
-    font-weight: 600;
+    font-weight: 400;
 }
-.drop-li a:hover{
-    
-    border-radius: 5px;
+.drop-li:hover{
+    background-color: #ddd;
+}
+.drop-li>a:hover{
     color: #0061FF;
-    background-color: white;
 }
 .nav-link:hover + .drop-ul, .drop-ul:hover{
     display: block;
-}
-
-.rossone{
-    display: none;
-    height: 50px;
-    width: 50px;
-    background-color: red;
-}
-.nav-link:hover + .rossone{
-    display: inline-block;
 }
     /* fine NAV */
 .jumbotron{
@@ -517,6 +517,9 @@ header i:hover{
 .section-five hr{
     margin: 40px 0;
 }
+details{
+    cursor: pointer;
+}
 summary>h4{
     display: inline-block;
     list-style: none;
@@ -535,6 +538,9 @@ summary{
 }
 details[open] .fa-angle-down{
     transform: rotate(180deg);
+}
+.section-five details:hover .fa-angle-down,.section-five details:hover summary{
+    color: red;
 }
 
 
@@ -569,7 +575,7 @@ footer ul{
     font-size: 2em;
 }
 .footer-li>a:hover{
-    color: red;
+    color:#0061FF;
 }
 .footer-nest-li{
     margin-top: 10px;
@@ -590,7 +596,7 @@ footer hr{
     /* float: right; */
 }
 .language summary:hover, .language a:hover{
-    color: #0093CE;
+    color: #0061FF;
 }
 .language a{
     display: block;

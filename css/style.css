@@ -281,7 +281,7 @@ header i:hover{
 .choice-descr{
     padding-bottom: 25px;
 }
-.choice-descr p{
+.plan-choice .choice-descr p{
     padding-left: 20px;
     margin-bottom: 20px;
 }
